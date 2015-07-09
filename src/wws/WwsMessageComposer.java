@@ -6,7 +6,7 @@ public class WwsMessageComposer implements MessageComposer {
 
 	@Override
 	public String composeMessage() {
-		return WwsMessageComposer.class.getSimpleName();
+		return "Nachricht vom " + WwsMessageComposer.class.getSimpleName();
 	}
 
 }
